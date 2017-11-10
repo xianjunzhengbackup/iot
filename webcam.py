@@ -1,7 +1,7 @@
-import numpy as np
+#import numpy as np
 import cv2
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture('/dev/video0')
 
 while(True):
     # Capture frame-by-frame
